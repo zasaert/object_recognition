@@ -13,6 +13,7 @@ def generate_random_coordinates():
 
 
 lat, lon = generate_random_coordinates()
+print(lat,lon)
 panos = search_panoramas(lat=46.34369, lon=19.23348)
 
 pano = panos[1]
